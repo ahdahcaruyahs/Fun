@@ -1,0 +1,20 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+int main()
+{
+    char name[14] = "Shaurya Chadha";
+    int balance = 16000;
+    printf("Dear %s, Your current balance is: %d Dollars.\n",name, balance);
+    printf("You have purchased a laptop for 1000 Dollars. Your new balance is: %d Dollars.",balance-1000);
+    printf("\nYou've wasted your money on really fucking stupid shit now you have nothing. Your new balance is: %d Dollars.",balance-16000);
+    printf("\nYou've drawn over your balance and now, you're in debt and you owe us money. Your new balance is: %d Dollars",balance-32000);
+    return 0;
+}
