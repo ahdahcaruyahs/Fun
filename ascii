@@ -1,0 +1,41 @@
+//simple program. Information ported from: https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html
+#include <stdio.h>
+#include <conio.h>
+
+void main() {
+    printf("\tDec  Char                           Dec  Char     Dec  Char     Dec  Char\n");
+    printf("\t---------                           ---------     ---------     ----------\n");
+    printf("\t  0  NUL (null)                      32  SPACE     64  @         96  `\n");
+    printf("\t  1  SOH (start of heading)          33  !         65  A         97  a\n");
+    printf("\t  2  STX (start of text)             34  \"         66  B         98  b\n");
+    printf("\t  3  ETX (end of text)               35  #         67  C         99  c\n");
+    printf("\t  4  EOT (end of transmission)       36  $         68  D        100  d\n");
+    printf("\t  5  ENQ (enquiry)                   37  %%         69  E        101  e\n");
+    printf("\t  6  ACK (acknowledge)               38  &         70  F        102  f\n");
+    printf("\t  7  BEL (bell)                      39  '         71  G        103  g\n");
+    printf("\t  8  BS  (backspace)                 40  (         72  H        104  h\n");
+    printf("\t  9  TAB (horizontal tab)            41  )         73  I        105  i\n");
+    printf("\t 10  LF  (NL line feed, new line)    42  *         74  J        106  j\n");
+    printf("\t 11  VT  (vertical tab)              43  +         75  K        107  k\n");
+    printf("\t 12  FF  (NP form feed, new page)    44  ,         76  L        108  l\n");
+    printf("\t 13  CR  (carriage return)           45  -         77  M        109  m\n");
+    printf("\t 14  SO  (shift out)                 46  .         78  N        110  n\n");
+    printf("\t 15  SI  (shift in)                  47  /         79  O        111  o\n");
+    printf("\t 16  DLE (data link escape)          48  0         80  P        112  p\n");
+    printf("\t 17  DC1 (device control 1)          49  1         81  Q        113  q\n");
+    printf("\t 18  DC2 (device control 2)          50  2         82  R        114  r\n");
+    printf("\t 19  DC3 (device control 3)          51  3         83  S        115  s\n");
+    printf("\t 20  DC4 (device control 4)          52  4         84  T        116  t\n");
+    printf("\t 21  NAK (negative acknowledge)      53  5         85  U        117  u\n");
+    printf("\t 22  SYN (synchronous idle)          54  6         86  V        118  v\n");
+    printf("\t 23  ETB (end of trans. block)       55  7         87  W        119  w\n");
+    printf("\t 24  CAN (cancel)                    56  8         88  X        120  x\n");
+    printf("\t 25  EM  (end of medium)             57  9         89  Y        121  y\n");
+    printf("\t 26  SUB (substitute)                58  :         90  Z        122  z\n");
+    printf("\t 27  ESC (escape)                    59  ;         91  [        123  {\n");
+    printf("\t 28  FS  (file separator)            60  <         92  \\        124  |\n");
+    printf("\t 29  GS  (group separator)           61  =         93  ]        125  }\n");
+    printf("\t 30  RS  (record separator)          62  >         94  ^        126  ~\n");
+    printf("\t 31  US  (unit separator)            63  ?         95  _        127  DEL\n");
+    getch();
+}
